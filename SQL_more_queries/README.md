@@ -15,3 +15,8 @@ subqueries, and views.
 Lists all privileges of the MySQL users `user_0d_1` and `user_0d_2` on `localhost`.
 
 File: `0-privileges.sql`
+
+### 1. Root user
+Creates the MySQL server user `user_0d_1` with all privileges and password `user_0d_1_pwd`.
+
+File: `1-create_user.sql`
