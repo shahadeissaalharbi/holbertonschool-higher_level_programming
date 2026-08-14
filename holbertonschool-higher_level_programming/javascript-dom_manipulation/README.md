@@ -21,6 +21,18 @@ using `document.querySelector`.
 
 Test with `0-main.html` in a browser.
 
+cat << 'EOF' >> README.md
+
+### 1. Click and turn red
+File: \`1-script.js\`
+Update the text color of the \`header\` HTML tag to red (#FF0000)
+when the user clicks on the element with id \`red_header\`.
+
+Test with \`1-main.html\` in a browser.
+EOF
+
+
+
 ## Author
 Shahad Alharbi
 EOF
