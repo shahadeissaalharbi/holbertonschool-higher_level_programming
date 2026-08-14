@@ -54,6 +54,28 @@ Test with \`3-main.html\` in a browser.
 EOF
 
 
+cat << 'EOF' >> README.md
+
+### 4. List of elements
+File: \`4-script.js\`
+Add a new \`<li>Item</li>\` element to the \`ul\` element with
+class \`my_list\` when the user clicks on the element with id
+\`add_item\`.
+
+Test with \`4-main.html\` in a browser.
+EOF
+
+cat << 'EOF' >> README.md
+
+### 5. Change the text
+File: \`5-script.js\`
+Update the text of the \`header\` HTML tag to \`New Header!!!\`
+when the user clicks on the element with id \`update_header\`.
+
+Test with \`5-main.html\` in a browser.
+EOF
+
+
 
 ## Author
 Shahad Alharbi
