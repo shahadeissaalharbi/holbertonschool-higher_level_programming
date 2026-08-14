@@ -38,5 +38,14 @@ or `csv`) and optional `id`. Reads and parses `products.json` or
 invalid `source` value and "Product not found" when the `id`
 doesn't match any product.
 
+### 4. Extending Dynamic Data Display to Include SQLite in Flask
+File: `task_04_db.py`
+Extends the `/products` route to also support `source=sql`,
+reading product data from a `products.db` SQLite database
+(`Products` table: id, name, category, price) via the `sqlite3`
+module. Reuses `product_display.html` and the same error
+handling as Task 3, with database errors handled separately.
+`create_db.py` creates and populates `products.db`.
+
 ## Author
 Shahad Alharbi
