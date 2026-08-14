@@ -25,3 +25,9 @@ avoid duplicating markup.
 
 ## Author
 Shahad Alharbi
+
+### 2. Creating a Dynamic Template with Loops and Conditions in Flask
+File: `task_02_logic.py`
+Adds a `/items` route that reads `items.json` and renders
+`items.html` using Jinja's `{% for %}` loop to list items and
+`{% if %}` to show "No items found" when the list is empty.
