@@ -75,6 +75,17 @@ when the user clicks on the element with id \`update_header\`.
 Test with \`5-main.html\` in a browser.
 EOF
 
+cat << 'EOF' >> README.md
+
+### 6. Star wars character
+File: \`6-script.js\`
+Fetch the character \`name\` from
+\`https://swapi-api.hbtn.io/api/people/5/?format=json\` using the
+Fetch API and display it in the HTML tag with id \`character\`.
+
+Test with \`6-main.html\` in a browser.
+EOF
+
 
 
 ## Author
