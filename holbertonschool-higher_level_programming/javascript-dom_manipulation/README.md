@@ -99,6 +99,17 @@ Fetch API. All titles are listed in the \`ul\` element with id
 Test with \`7-main.html\` in a browser.
 EOF
 
+cat << 'EOF' >> README.md
+
+### 8. Say Hello!
+File: \`8-script.js\`
+Fetch from \`https://hellosalut.stefanbohacek.com/?lang=fr\` and
+display the value of \`hello\` in the HTML element with id
+\`hello\`. Works when imported from the \`<head>\` tag by waiting
+for \`DOMContentLoaded\`.
+
+Test with \`8-main.html\` in a browser.
+EOF
 
 
 
