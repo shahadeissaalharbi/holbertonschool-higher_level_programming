@@ -1,4 +1,3 @@
-cat << 'EOF' > task_00_intro.py
 #!/usr/bin/python3
 """Simple templating program that generates invitation files."""
 import logging
@@ -46,4 +45,3 @@ def generate_invitations(template, attendees):
         output_filename = "output_{}.txt".format(index)
         with open(output_filename, "w") as output_file:
             output_file.write(content)
-EOF
