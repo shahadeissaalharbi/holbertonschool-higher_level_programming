@@ -87,6 +87,20 @@ Test with \`6-main.html\` in a browser.
 EOF
 
 
+cat << 'EOF' >> README.md
+
+### 7. Star Wars movies
+File: \`7-script.js\`
+Fetch and list the \`title\` of all Star Wars movies from
+\`https://swapi-api.hbtn.io/api/films/?format=json\` using the
+Fetch API. All titles are listed in the \`ul\` element with id
+\`list_movies\`.
+
+Test with \`7-main.html\` in a browser.
+EOF
+
+
+
 
 ## Author
 Shahad Alharbi
