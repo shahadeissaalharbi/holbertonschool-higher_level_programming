@@ -23,11 +23,20 @@ Basic Flask application with routes `/`, `/about`, and
 components are included in every page via `{% include %}` to
 avoid duplicating markup.
 
-## Author
-Shahad Alharbi
-
 ### 2. Creating a Dynamic Template with Loops and Conditions in Flask
 File: `task_02_logic.py`
 Adds a `/items` route that reads `items.json` and renders
 `items.html` using Jinja's `{% for %}` loop to list items and
 `{% if %}` to show "No items found" when the list is empty.
+
+### 3. Displaying Data from JSON or CSV Files in Flask
+File: `task_03_files.py`
+Adds a `/products` route with query parameters `source` (`json`
+or `csv`) and optional `id`. Reads and parses `products.json` or
+`products.csv`, filters by `id` when provided, and renders
+`product_display.html` as a table. Returns "Wrong source" for an
+invalid `source` value and "Product not found" when the `id`
+doesn't match any product.
+
+## Author
+Shahad Alharbi
