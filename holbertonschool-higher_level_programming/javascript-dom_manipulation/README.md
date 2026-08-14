@@ -31,6 +31,28 @@ when the user clicks on the element with id \`red_header\`.
 Test with \`1-main.html\` in a browser.
 EOF
 
+cat << 'EOF' >> README.md
+
+### 2. Add .red class
+File: \`2-script.js\`
+Add the class \`red\` to the \`header\` HTML tag when the user
+clicks on the element with id \`red_header\`.
+
+Test with \`2-main.html\` in a browser.
+EOF
+
+cat << 'EOF' >> README.md
+
+### 3. Toggle classes
+File: \`3-script.js\`
+Toggle the class of the \`header\` HTML tag between \`red\` and
+\`green\` when the user clicks on the element with id
+\`toggle_header\`. The header always has exactly one of these
+classes, never both, never neither.
+
+Test with \`3-main.html\` in a browser.
+EOF
+
 
 
 ## Author
